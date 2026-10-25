@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE       COMMAND                  CREATED       STATUS       PORTS                                         NAMES
+4e8cf2dfcd08   my-script   "/bin/bash -c '/usr/…"   11 days ago   Up 11 days   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   my-app
