@@ -1,0 +1,14 @@
+[Unit]
+Description=My App Container
+After=docker.service
+Wants=docker.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/docker start -a my-app
+ExecStop=/usr/bin/docker stop my-app
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
