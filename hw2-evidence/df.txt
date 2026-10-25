@@ -1,9 +1,11 @@
-Filesystem      Size  Used Avail Use% Mounted on
-tmpfs           197M  1.2M  196M   1% /run
-/dev/sda1        19G  3.6G   15G  20% /
-tmpfs           984M     0  984M   0% /dev/shm
-tmpfs           5.0M     0  5.0M   0% /run/lock
-/dev/sda16      881M  117M  703M  15% /boot
-/dev/sda15      105M  6.2M   99M   6% /boot/efi
-overlay          19G  3.6G   15G  20% /var/lib/docker/rootfs/overlayfs/4e8cf2dfcd08a4f947664712d6fc4d67bbcec386cc1583c4e4ce081471ffcaf3
-tmpfs           197M   12K  197M   1% /run/user/0
+Filesystem                   Size  Used Avail Use% Mounted on
+tmpfs                        197M  1.2M  196M   1% /run
+/dev/sda1                     19G  4.5G   14G  25% /
+tmpfs                        984M     0  984M   0% /dev/shm
+tmpfs                        5.0M     0  5.0M   0% /run/lock
+/dev/sda16                   881M  117M  703M  15% /boot
+/dev/sda15                   105M  6.2M   99M   6% /boot/efi
+overlay                       19G  4.5G   14G  25% /var/lib/docker/rootfs/overlayfs/4e8cf2dfcd08a4f947664712d6fc4d67bbcec386cc1583c4e4ce081471ffcaf3
+tmpfs                        197M   12K  197M   1% /run/user/0
+/dev/md0                     463M   24K  427M   1% /mnt/raid
+/dev/mapper/vg_data-lv_logs  172M   24K  158M   1% /mnt/logs

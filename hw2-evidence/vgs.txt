@@ -1,0 +1,2 @@
+  VG      #PV #LV #SN Attr   VSize   VFree  
+  vg_data   1   1   0 wz--n- 508.00m 308.00m

@@ -3,18 +3,18 @@
      Active: active (running) since Tue 2026-10-13 21:43:22 UTC; 1 week 4 days ago
    Main PID: 136631 (docker)
       Tasks: 8 (limit: 2315)
-     Memory: 9.0M (peak: 9.5M)
-        CPU: 36.990s
+     Memory: 11.0M (peak: 11.2M)
+        CPU: 37.024s
      CGroup: /system.slice/my-app.service
              └─136631 /usr/bin/docker start -a my-app
 
-Oct 25 07:12:42 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:12:42] "GET /admin HTTP/1.0" 404 -
-Oct 25 07:12:50 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:12:50] code 404, message File not found
-Oct 25 07:12:50 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:12:50] "GET /admin_login.html HTTP/1.0" 404 -
-Oct 25 07:12:58 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:12:58] code 404, message File not found
-Oct 25 07:12:58 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:12:58] "GET /api/v2/cmdb/system/admin HTTP/1.0" 404 -
-Oct 25 07:13:05 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:13:05] code 404, message File not found
-Oct 25 07:13:05 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:13:05] "GET /api/v2/cmdb/system/admin/admin HTTP/1.0" 404 -
-Oct 25 07:13:13 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:13:13] code 404, message File not found
-Oct 25 07:13:13 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:13:13] "GET /appliance HTTP/1.0" 404 -
-Oct 25 07:13:17 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:13:17] "HEAD / HTTP/1.0" 200 -
+Oct 25 07:20:07 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:20:07] "GET /webclient/Login.xhtml HTTP/1.0" 404 -
+Oct 25 07:20:17 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:20:17] code 404, message File not found
+Oct 25 07:20:17 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:20:17] "GET /webconsole HTTP/1.0" 404 -
+Oct 25 07:20:24 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:20:24] code 404, message File not found
+Oct 25 07:20:24 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:20:24] "GET /webui/ HTTP/1.0" 404 -
+Oct 25 07:20:32 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:20:32] code 404, message File not found
+Oct 25 07:20:32 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:20:32] "GET /wsman HTTP/1.0" 404 -
+Oct 25 07:22:14 hiplet-130848 docker[136631]: 80.94.92.130 - - [25/Oct/2026 07:22:14] code 404, message File not found
+Oct 25 07:22:14 hiplet-130848 docker[136631]: 80.94.92.130 - - [25/Oct/2026 07:22:14] "GET http://api.9hits.com/test HTTP/1.1" 404 -
+Oct 25 07:23:26 hiplet-130848 docker[136631]: 172.17.0.1 - - [25/Oct/2026 07:23:26] "HEAD / HTTP/1.0" 200 -
